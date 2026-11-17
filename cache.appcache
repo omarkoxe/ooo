@@ -1,8 +1,7 @@
 CACHE MANIFEST
-# OMAR_KOXE Slopkit offline cache v2
+# OMAR_KOXE offline cache
 
 CACHE:
-index.html
 900/alert.js
 900/config.js
 900/kpatch/900.elf
@@ -40,10 +39,12 @@ css/ps4/userland.js
 css/worker.js
 css/workers.js
 goldhen_2.4b18.13.bin
+index.html
 lapse.js
 loader.js
 main.js
 misc.js
+slopkit.manifest
 slopkit/afterglow.js
 slopkit/chain_lapse.js
 slopkit/chain_poops.js
