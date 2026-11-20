@@ -1,13 +1,30 @@
 CACHE MANIFEST
-# OMAR_KOXE offline cache
+# OMAR_KOXE Slopkit Offline - Fixed
+# Version: 2026-11-20-v2
 
 CACHE:
+index.html
+goldhen_2.4b18.13.bin
+cache.appcache
+slopkit.manifest
+
+# Root JS
+lapse.js
+loader.js
+main.js
+misc.js
+worker.js
+workers.js
+
+# 900
 900/alert.js
 900/config.js
+900/lapse.js
+900/psfree.js
+900/send.js
 900/kpatch/900.elf
 900/kpatch/903.elf
 900/kpatch/950.elf
-900/lapse.js
 900/lapse/900.js
 900/lapse/903.js
 900/lapse/950.js
@@ -20,31 +37,26 @@ CACHE:
 900/module/rw.js
 900/module/utils.js
 900/module/view.js
-900/psfree.js
 900/rop/900.js
 900/rop/950.js
-900/send.js
+
+# css
 css/lapse.js
 css/loader.js
 css/main.js
 css/misc.js
+css/worker.js
+css/workers.js
 css/ps4/constant.js
 css/ps4/constants.js
 css/ps4/kernel.js
+css/ps4/userland.js
 css/ps4/patches/1000.bin
 css/ps4/patches/1050.bin
 css/ps4/patches/1100.bin
 css/ps4/patches/1102.bin
-css/ps4/userland.js
-css/worker.js
-css/workers.js
-goldhen_2.4b18.13.bin
-index.html
-lapse.js
-loader.js
-main.js
-misc.js
-slopkit.manifest
+
+# slopkit
 slopkit/afterglow.js
 slopkit/chain_lapse.js
 slopkit/chain_poops.js
@@ -53,6 +65,8 @@ slopkit/int64.js
 slopkit/jb.js
 slopkit/jb2.js
 slopkit/mem.js
+slopkit/ps4_offsets.js
+slopkit/rpc_worker.js
 slopkit/patches/1150.bin
 slopkit/patches/1200.bin
 slopkit/patches/1202.bin
@@ -65,10 +79,9 @@ slopkit/patches/1350.bin
 slopkit/patches/1352.bin
 slopkit/patches/1400.bin
 slopkit/patches/1402.bin
-slopkit/ps4_offsets.js
-slopkit/rpc_worker.js
-worker.js
-workers.js
 
 NETWORK:
 *
+
+FALLBACK:
+/ index.html
