@@ -1,9 +1,10 @@
 CACHE MANIFEST
 # OMAR_KOXE Slopkit Offline - Fixed
-# Version: 2026-11-20-v2
+# Version: 2026-11-21-omarkoxe-vvip
 
 CACHE:
 index.html
+omarkoxe_background.jpg
 goldhen_2.4b18.13.bin
 cache.appcache
 slopkit.manifest
